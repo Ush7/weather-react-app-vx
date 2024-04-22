@@ -1,10 +1,10 @@
 import "./App.css";
+import Weather from "./Weather";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello to the other side</h1>
-
+      <Weather />
       <footer>
         {" "}
         This project coded by{" "}
@@ -14,8 +14,8 @@ function App() {
           target="_blank"
         >
           Unisha Shilpakar
-        </a>
-        and isn{" "}
+        </a>{" "}
+        and is{" "}
         <a href="https://github.com/Ush7" rel="noreferrer" target="_blank">
           open-sourced
         </a>{" "}
