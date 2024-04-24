@@ -1,3 +1,9 @@
 footer {
   text-align: center;
+  margin: auto 0;
+}
+#link {
+  font-size: x-small;
+  font-weight: 400;
+  color: rgb(32, 33, 36);
 }
