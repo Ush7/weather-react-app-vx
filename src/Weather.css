@@ -1,85 +1,49 @@
 .Weather {
-  padding: 10px;
-  display: block;
-  margin: auto;
-  margin-top: 30px;
-  max-width: 700px;
+  font-family: arial, sans-serif;
   border: 1px solid #dadde1;
+  padding: 16px;
   border-radius: 4px;
   color: rgb(135, 135, 135);
 }
-ul {
-  list-style-type: none;
-}
-.heading-section {
-  padding-top: 20px;
-  padding-left: 20px;
-}
-#searchButton,
-#currentButton {
-  margin-right: 10px;
-}
-#searchButton :hover,
-#currentButton :hover {
-  color: rgb(7, 32, 107);
-  cursor: default;
-}
-.todaycolumn1 {
-  text-align: left;
-  padding-left: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.todayicon {
-  font-size: 80px;
-  text-align: center;
-}
-#temperature {
-  color: rgb(0, 0, 0);
-  font-size: 64px;
-  font-weight: 600;
-  line-height: 1;
-  padding-left: 10px;
+
+.Weather h1 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  line-height: 29px;
 }
 
-.degree {
-  position: relative;
+.Weather ul {
+  margin: 0;
+  padding: 0;
 }
 
-#weatherDescription {
-  text-transform: capitalize;
-}
-
-.todaycolumn2 {
-  text-align: left;
-  padding-left: 30px;
-  font-size: 18px;
-}
-
-h4 {
-  text-align: left;
-  padding-left: 30px;
-  padding-bottom: 10px;
-}
-
-.boundry-daycontent {
-  padding-top: 15px;
-}
-.day-content {
-  text-align: center;
-}
-.day-of-week {
+.Weather li {
   font-size: 16px;
-  font-weight: bolder;
-  padding-bottom: 5px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
 }
 
-.forecast-temperature {
-  font-size: 13px;
+.Weather .temperature {
+  font-weight: bold;
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 64px;
+  margin-left: 5px;
+  font-weight: 400;
+  margin-left: 10px;
 }
-.forecast-low {
-  opacity: 0.7;
+
+.Weather canvas {
+  margin: 10px auto;
 }
-.boundrybox {
-  padding-bottom: 20px;
+
+.Weather .unit {
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
 }
